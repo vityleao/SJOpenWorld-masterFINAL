@@ -22,7 +22,7 @@ public class TrdCam : MonoBehaviour
     {
         dummy.transform.position = target.transform.position;
 
-        transform.position = dummy.transform.position- dummy.transform.forward* ajustD + Vector3.up*2;
+        transform.position = dummy.transform.position- dummy.transform.forward* ajustD + Vector3.up*5;
 
         transform.LookAt(target.transform.position+Vector3.up* ajustY);
 
