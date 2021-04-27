@@ -10,7 +10,7 @@ public class TouchPyres : MonoBehaviour
     {
         if (other.CompareTag("Player"))
         {
-            Instantiate(fire, new Vector3 (transform.position.x, 2.3f, transform.position.z), Quaternion.identity);
+            Instantiate(fire, new Vector3 (transform.position.x + 35f, 7.5f, transform.position.z + 12.47f), Quaternion.identity);
             numPyres++;
         }
     }
