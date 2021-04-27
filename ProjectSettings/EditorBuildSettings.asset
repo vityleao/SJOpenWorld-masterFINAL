@@ -27,6 +27,6 @@ EditorBuildSettings:
     path: Assets/Scenes/TaskTerra.unity
     guid: 8e1364b53410d9748aa5b9176e758c53
   - enabled: 1
-    path: Assets/Scenes/IlhaMain.unity
+    path: Assets/Scenes/Ilha.unity
     guid: 9970edf80022b7148ba05b1d84389f8a
   m_configObjects: {}
