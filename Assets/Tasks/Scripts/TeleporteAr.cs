@@ -3,14 +3,14 @@ using System.Collections.Generic;
 using UnityEngine.SceneManagement;
 using UnityEngine;
 
-public class Teleporte : MonoBehaviour
+public class TeleporteAr : MonoBehaviour
 {
     public string Level;
     private void OnTriggerEnter(Collider other)
     {
         if (other.CompareTag("Player"))
         {
-            CommomValues.ShrinePlayerPosition = other.transform.position - other.transform.forward * 3;
+            //CommomValues.ShrineArPlayerPosition = other.transform.position - other.transform.forward * 3;
             StartCoroutine(MyLoadScene());
         }
     }
