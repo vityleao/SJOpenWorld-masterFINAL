@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 2876467577678366422}
   - component: {fileID: -7270886645150880894}
   - component: {fileID: -7600556873578678146}
+  - component: {fileID: 1137771571374489215}
   m_Layer: 0
   m_Name: vento
   m_TagString: Untagged
@@ -107,3 +108,15 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Level: Ilha
+--- !u!114 &1137771571374489215
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4389805077571643139}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d6b0fa5e9a638044e87d7263fed25657, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
