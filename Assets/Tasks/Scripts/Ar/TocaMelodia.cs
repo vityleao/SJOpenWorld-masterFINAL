@@ -5,10 +5,11 @@ using UnityEngine;
 public class TocaMelodia : MonoBehaviour
 {
     [SerializeField] AudioClip notaDo, notaRe, notaMi, notaFa;
+    [SerializeField] GameObject esfera;
     new AudioSource audio;
     private void Start()
     {
-        audio = GetComponent<AudioSource>();
+        audio = esfera.GetComponent<AudioSource>();
     }
     private void OnTriggerEnter(Collider other)
     {
@@ -19,19 +20,19 @@ public class TocaMelodia : MonoBehaviour
     }
     IEnumerator TocaNota()
     {
-        gameObject.GetComponent<Renderer>().material.color = Color.yellow;
+        esfera.GetComponent<Renderer>().material.color = Color.yellow;
         audio.PlayOneShot(notaDo);
         yield return new WaitForSeconds(.5f);
-        gameObject.GetComponent<Renderer>().material.color = Color.blue;
+        esfera.GetComponent<Renderer>().material.color = Color.blue;
         audio.PlayOneShot(notaRe);
         yield return new WaitForSeconds(.5f);
-        gameObject.GetComponent<Renderer>().material.color = Color.green;
+        esfera.GetComponent<Renderer>().material.color = Color.green;
         audio.PlayOneShot(notaMi);
         yield return new WaitForSeconds(.5f);
-        gameObject.GetComponent<Renderer>().material.color = Color.red;
+        esfera.GetComponent<Renderer>().material.color = Color.red;
         audio.PlayOneShot(notaFa);
         yield return new WaitForSeconds(.5f);
-        gameObject.GetComponent<Renderer>().material.color = Color.white;
+        esfera.GetComponent<Renderer>().material.color = Color.white;
         yield return null;
     }
 }

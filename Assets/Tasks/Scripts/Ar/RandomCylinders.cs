@@ -25,6 +25,6 @@ public class RandomCylinders : MonoBehaviour
     }
     public void ItemAparece()
     {
-        Instantiate(item, new Vector3(0, 1, 14), Quaternion.identity);
+        Instantiate(item, new Vector3(16.5f, 4, 2), Quaternion.identity);
     }
 }
