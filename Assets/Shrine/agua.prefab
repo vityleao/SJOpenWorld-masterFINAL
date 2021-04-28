@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 4191747264244566987}
   - component: {fileID: 5871752526567215909}
   - component: {fileID: -6023184717182300536}
+  - component: {fileID: 1286653958273455199}
   m_Layer: 0
   m_Name: agua
   m_TagString: Untagged
@@ -44,8 +45,8 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
+  m_Size: {x: 1.975708, y: 2.710781, z: 1.5561104}
+  m_Center: {x: -0.22350311, y: 1.2584782, z: 0.082445145}
 --- !u!114 &-6023184717182300536
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -59,6 +60,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Level: Ilha
+--- !u!114 &1286653958273455199
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3560028714587853169}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7b924d1e194fc624587b0bd6a1c44946, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &4170389231217081382
 GameObject:
   m_ObjectHideFlags: 0
