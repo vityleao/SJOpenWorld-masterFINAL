@@ -11,6 +11,8 @@ GameObject:
   - component: {fileID: 4008318950171311545}
   - component: {fileID: 4419265350496796}
   - component: {fileID: 2876467577678366422}
+  - component: {fileID: -7270886645150880894}
+  - component: {fileID: -7600556873578678146}
   m_Layer: 0
   m_Name: vento
   m_TagString: Untagged
@@ -79,3 +81,29 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!65 &-7270886645150880894
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4389805077571643139}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 2.4592764, y: 20.14875, z: 39.68363}
+  m_Center: {x: -0.38193938, y: -1.8359737, z: 9.38242}
+--- !u!114 &-7600556873578678146
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4389805077571643139}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec1daa0d8fa939c4f9c83db7f556538c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Level: Ilha

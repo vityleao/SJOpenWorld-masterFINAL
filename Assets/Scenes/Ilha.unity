@@ -8886,7 +8886,7 @@ GameObject:
   m_Component:
   - component: {fileID: 521566291}
   m_Layer: 0
-  m_Name: ShrineScene (3)
+  m_Name: ShrineAr
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -8932,7 +8932,7 @@ Transform:
   - {fileID: 604961569}
   - {fileID: 86052016}
   m_Father: {fileID: 1698960924}
-  m_RootOrder: 3
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: -159.365, z: 0}
 --- !u!1001 &528369037
 PrefabInstance:
@@ -8944,7 +8944,7 @@ PrefabInstance:
     - target: {fileID: 1380594545527083466, guid: 13edaec832eab1a4a8e3c9e9e552fab1,
         type: 3}
       propertyPath: m_Name
-      value: Teleporte
+      value: TaskTerra
       objectReference: {fileID: 0}
     - target: {fileID: 3785690925055209584, guid: 13edaec832eab1a4a8e3c9e9e552fab1,
         type: 3}
@@ -10579,7 +10579,7 @@ PrefabInstance:
     - target: {fileID: 1380594545527083466, guid: 13edaec832eab1a4a8e3c9e9e552fab1,
         type: 3}
       propertyPath: m_Name
-      value: Teleporte (2)
+      value: TaskAgua
       objectReference: {fileID: 0}
     - target: {fileID: 3785690925055209584, guid: 13edaec832eab1a4a8e3c9e9e552fab1,
         type: 3}
@@ -10619,7 +10619,7 @@ PrefabInstance:
     - target: {fileID: 3785690925055209584, guid: 13edaec832eab1a4a8e3c9e9e552fab1,
         type: 3}
       propertyPath: m_RootOrder
-      value: 2
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3785690925055209584, guid: 13edaec832eab1a4a8e3c9e9e552fab1,
         type: 3}
@@ -14521,7 +14521,7 @@ PrefabInstance:
     - target: {fileID: 4747925631519058804, guid: 98400190dd72f4e42acae6ba6feeadd0,
         type: 3}
       propertyPath: m_Name
-      value: ShrineScene (1)
+      value: ShrineTerra
       objectReference: {fileID: 0}
     - target: {fileID: 5381754929953780174, guid: 98400190dd72f4e42acae6ba6feeadd0,
         type: 3}
@@ -14561,7 +14561,7 @@ PrefabInstance:
     - target: {fileID: 5381754929953780174, guid: 98400190dd72f4e42acae6ba6feeadd0,
         type: 3}
       propertyPath: m_RootOrder
-      value: 1
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 5381754929953780174, guid: 98400190dd72f4e42acae6ba6feeadd0,
         type: 3}
@@ -18352,17 +18352,17 @@ PrefabInstance:
     - target: {fileID: 4568980974282011942, guid: 251eb8a247c6ff6438561641e12e3b89,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 882.04
+      value: 891.4
       objectReference: {fileID: 0}
     - target: {fileID: 4568980974282011942, guid: 251eb8a247c6ff6438561641e12e3b89,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 23.264
+      value: 22.7
       objectReference: {fileID: 0}
     - target: {fileID: 4568980974282011942, guid: 251eb8a247c6ff6438561641e12e3b89,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 161.39
+      value: 160.2
       objectReference: {fileID: 0}
     - target: {fileID: 4568980974282011942, guid: 251eb8a247c6ff6438561641e12e3b89,
         type: 3}
@@ -23075,7 +23075,7 @@ PrefabInstance:
     - target: {fileID: 1380594545527083466, guid: 13edaec832eab1a4a8e3c9e9e552fab1,
         type: 3}
       propertyPath: m_Name
-      value: Teleporte (3)
+      value: TaskAr
       objectReference: {fileID: 0}
     - target: {fileID: 3785690925055209584, guid: 13edaec832eab1a4a8e3c9e9e552fab1,
         type: 3}
@@ -23115,7 +23115,7 @@ PrefabInstance:
     - target: {fileID: 3785690925055209584, guid: 13edaec832eab1a4a8e3c9e9e552fab1,
         type: 3}
       propertyPath: m_RootOrder
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3785690925055209584, guid: 13edaec832eab1a4a8e3c9e9e552fab1,
         type: 3}
@@ -24617,9 +24617,9 @@ Transform:
   m_LocalPosition: {x: 776.26, y: 23.33, z: 214.41}
   m_LocalScale: {x: 5, y: 5, z: 5}
   m_Children:
-  - {fileID: 1733788664}
   - {fileID: 1387244490}
   - {fileID: 631179087}
+  - {fileID: 1733788664}
   - {fileID: 528369038}
   m_Father: {fileID: 0}
   m_RootOrder: 9
@@ -27125,10 +27125,10 @@ Transform:
   m_LocalPosition: {x: 531.38, y: 99.4, z: 608.06}
   m_LocalScale: {x: 3.1229005, y: 3.1228995, z: 3.1229005}
   m_Children:
+  - {fileID: 521566291}
+  - {fileID: 5381754929814579707}
   - {fileID: 8871318661864518131}
   - {fileID: 887333179}
-  - {fileID: 5381754929814579707}
-  - {fileID: 521566291}
   m_Father: {fileID: 0}
   m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -27481,7 +27481,7 @@ PrefabInstance:
     - target: {fileID: 1380594545527083466, guid: 13edaec832eab1a4a8e3c9e9e552fab1,
         type: 3}
       propertyPath: m_Name
-      value: Teleporte (1)
+      value: TaskFogo
       objectReference: {fileID: 0}
     - target: {fileID: 3785690925055209584, guid: 13edaec832eab1a4a8e3c9e9e552fab1,
         type: 3}
@@ -27521,7 +27521,7 @@ PrefabInstance:
     - target: {fileID: 3785690925055209584, guid: 13edaec832eab1a4a8e3c9e9e552fab1,
         type: 3}
       propertyPath: m_RootOrder
-      value: 0
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 3785690925055209584, guid: 13edaec832eab1a4a8e3c9e9e552fab1,
         type: 3}
@@ -38136,7 +38136,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5381754929814579707}
   m_Layer: 0
-  m_Name: ShrineScene (2)
+  m_Name: ShrineAgua
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -38723,7 +38723,7 @@ Transform:
   - {fileID: 3714338762035028974}
   - {fileID: 3759996993391764897}
   m_Father: {fileID: 1698960924}
-  m_RootOrder: 2
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: -90.01601, z: 0}
 --- !u!4 &5391860409112973984
 Transform:
@@ -40726,7 +40726,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8871318661864518131}
   m_Layer: 0
-  m_Name: ShrineScene
+  m_Name: ShrineFogo
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -41189,7 +41189,7 @@ Transform:
   - {fileID: 160282024345320422}
   - {fileID: 404380114278907305}
   m_Father: {fileID: 1698960924}
-  m_RootOrder: 0
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 167.88701, z: 0}
 --- !u!4 &8890431892325632680
 Transform:
